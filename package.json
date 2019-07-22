@@ -11,6 +11,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
+    "prepare": "npm run build",
     "lint": "eslint src/*.{ts,tsx}",
     "fmt": "prettier --check *.md src/*.{ts,tsx}",
     "test": "jest",
